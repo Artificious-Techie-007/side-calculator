@@ -39,7 +39,7 @@ if __name__ == "__main__":
     equation=StringVar()
 
 
-    x =Entry(parent,width = 1,bg = "grey",textvariable=equation)
+    x =Entry(parent,width = 1,bg = "grey",textvariable=equation,state=DISABLED)
     x.grid(columnspan=4,ipadx=112,ipady=50)
 
 
